@@ -23,7 +23,9 @@
     _block = buttonAction;
     [self addTarget:self action:@selector(buttonAction) forControlEvents:UIControlEventTouchUpInside];
 }
+
 - (void)buttonAction{
+    
     if (_block) {
         
         _block();
