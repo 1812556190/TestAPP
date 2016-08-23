@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="显示密码" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KGu-lp-DeL">
+                                <rect key="frame" x="-25" y="-30" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="KGu-lp-DeL" secondAttribute="trailing" constant="40" id="0tE-bC-TxM"/>
+                            <constraint firstItem="KGu-lp-DeL" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="100" id="4Sl-bQ-spa"/>
+                            <constraint firstItem="KGu-lp-DeL" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="40" id="sfd-xq-L6J"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="KGu-lp-DeL"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="0tE-bC-TxM"/>
+                                <exclude reference="4Sl-bQ-spa"/>
+                                <exclude reference="sfd-xq-L6J"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="KGu-lp-DeL"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="0tE-bC-TxM"/>
+                                <include reference="4Sl-bQ-spa"/>
+                                <include reference="sfd-xq-L6J"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="passWord" destination="KGu-lp-DeL" id="OwG-cS-vrA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="279" y="265.5"/>
+        </scene>
+        <!--Two Controller-->
+        <scene sceneID="08L-76-LNP">
+            <objects>
+                <viewController storyboardIdentifier="TwoController" id="rRX-gS-ZM0" customClass="TwoController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="0Sz-17-bd2"/>
+                        <viewControllerLayoutGuide type="bottom" id="b4t-f6-aai"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="wbd-3S-4FJ">
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="输入密码" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3vG-cO-Tty">
+                                <rect key="frame" x="-25" y="-30" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="3vG-cO-Tty" firstAttribute="top" secondItem="0Sz-17-bd2" secondAttribute="bottom" constant="100" id="3fh-mc-t1i"/>
+                            <constraint firstItem="3vG-cO-Tty" firstAttribute="leading" secondItem="wbd-3S-4FJ" secondAttribute="leading" constant="50" id="4ug-cd-BlR"/>
+                            <constraint firstAttribute="trailing" secondItem="3vG-cO-Tty" secondAttribute="trailing" constant="50" id="qbZ-Ew-w4o"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="3vG-cO-Tty"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="3fh-mc-t1i"/>
+                                <exclude reference="4ug-cd-BlR"/>
+                                <exclude reference="qbZ-Ew-w4o"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="3vG-cO-Tty"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="3fh-mc-t1i"/>
+                                <include reference="4ug-cd-BlR"/>
+                                <include reference="qbZ-Ew-w4o"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="passWord" destination="3vG-cO-Tty" id="iaX-JM-OUb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OXi-7U-Psx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1020" y="265.5"/>
+        </scene>
+    </scenes>
+</document>
