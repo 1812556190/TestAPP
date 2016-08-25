@@ -20,6 +20,8 @@
     CALayer *hourLayer;
     CALayer *minutesLayer;
     CALayer *secondLayer;
+    NSCalendar *_calendar;//日历
+    
 }
 
 
@@ -31,6 +33,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    _calendar = [NSCalendar currentCalendar];//创建日历
 
     [self.view addSubview:self.timeImage];
     
@@ -40,6 +43,9 @@
     [NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(currentTimeTo) userInfo:nil repeats:YES];
     
 }
+
+
+
 
 - (void)addSetChildLayers{
     //时针
@@ -84,9 +90,7 @@
 
 //获取当前时间
 - (void)currentTimeTo{
-    NSCalendar *calendar = [NSCalendar currentCalendar];//创建日历
-    
-    NSDateComponents *com = [calendar components:NSCalendarUnitSecond | NSCalendarUnitMinute | NSCalendarUnitHour fromDate:[NSDate date]];//取出需要的时间(过滤)
+    NSDateComponents *com = [_calendar components:NSCalendarUnitSecond | NSCalendarUnitMinute | NSCalendarUnitHour fromDate:[NSDate date]];//取出需要的时间(过滤)
     NSInteger secTime = com.second;//获取当前秒
     NSInteger minTime = com.minute;//获取当前分
     NSInteger hourTime = com.hour;//获取当前时(12小时)
