@@ -7,6 +7,7 @@
 //
 
 #import "CALayerDatas.h"
+#import <AVFoundation/AVFoundation.h>
 
 @interface CALayerDatas ()
 
@@ -42,12 +43,32 @@
             [self creatLayerCAEmitterLayer];
             break;
         case LayerTypeAVPlayerLayer:
-            
+            [self creatVideoLayer];
             break;
             
         default:
             break;
     }
+}
+
+
+
+#pragma mark - 视频播放
+-  (void)creatVideoLayer{
+    NSURL *url = [[NSBundle mainBundle] URLForResource:@"video" withExtension:@"mp4"];//创建url
+    AVPlayer *player = [AVPlayer playerWithURL:url];
+    AVPlayerLayer *playerLayer = [AVPlayerLayer playerLayerWithPlayer:player];
+    playerLayer.frame = CGRectMake(35, 100,300 , 300);
+    
+    playerLayer.masksToBounds = YES;
+    playerLayer.cornerRadius = 20;
+    playerLayer.borderColor = [UIColor redColor].CGColor;
+    playerLayer.borderWidth = 4;
+    
+    [self.view.layer addSublayer:playerLayer];
+    
+    [player play];
+    
 }
 
 
@@ -84,7 +105,7 @@
     CAEmitterCell *sonCell = [CAEmitterCell emitterCell];
     
     //粒子参数的速度乘数因子
-    sonCell.birthRate = 20.0;
+    sonCell.birthRate = 20.0;//初始产生的粒子个数
     sonCell.lifetime = 120.0;//设置持续时间
     
     //粒子的速度
@@ -117,11 +138,6 @@
     
     //将粒子Layer添加进图层
     [self.view.layer addSublayer:emitter];
-    
-    
-    
-    
-    
     
     
 }

@@ -17,11 +17,19 @@ typedef void(^myBlock)();
 
 @property (nonatomic, strong)NSObject *obj;
 
-
-
 @end
 @implementation MyBlock
 
+
+//
+//- (void)circularReference{
+//    //当双方相互持有彼此时就会造成循环引用
+//    self.block = ^{
+//        NSLog(@"%@",self.obj);
+//        
+//        [self modfi];
+//    };
+//}
 
 - (void)toooo{
     /*
