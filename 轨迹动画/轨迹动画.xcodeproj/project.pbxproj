@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		181590E41D7176920021724B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 181590E31D7176920021724B /* main.m */; };
+		181590E71D7176920021724B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 181590E61D7176920021724B /* AppDelegate.m */; };
+		181590EA1D7176920021724B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 181590E91D7176920021724B /* ViewController.m */; };
+		181590ED1D7176920021724B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181590EB1D7176920021724B /* Main.storyboard */; };
+		181590EF1D7176920021724B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 181590EE1D7176920021724B /* Assets.xcassets */; };
+		181590F21D7176920021724B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181590F01D7176920021724B /* LaunchScreen.storyboard */; };
+		181590FD1D7176920021724B /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 181590FC1D7176920021724B /* ____Tests.m */; };
+		181591081D7176920021724B /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 181591071D7176920021724B /* ____UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		181590F91D7176920021724B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 181590D71D7176920021724B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 181590DE1D7176920021724B;
+			remoteInfo = "轨迹动画";
+		};
+		181591041D7176920021724B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 181590D71D7176920021724B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 181590DE1D7176920021724B;
+			remoteInfo = "轨迹动画";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		181590DF1D7176920021724B /* 轨迹动画.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "轨迹动画.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		181590E31D7176920021724B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		181590E51D7176920021724B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		181590E61D7176920021724B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		181590E81D7176920021724B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		181590E91D7176920021724B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		181590EC1D7176920021724B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		181590EE1D7176920021724B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		181590F11D7176920021724B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		181590F31D7176920021724B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		181590F81D7176920021724B /* 轨迹动画Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "轨迹动画Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		181590FC1D7176920021724B /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
+		181590FE1D7176920021724B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		181591031D7176920021724B /* 轨迹动画UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "轨迹动画UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		181591071D7176920021724B /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
+		181591091D7176920021724B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		181590DC1D7176920021724B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181590F51D7176920021724B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181591001D7176920021724B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		181590D61D7176920021724B = {
+			isa = PBXGroup;
+			children = (
+				181590E11D7176920021724B /* 轨迹动画 */,
+				181590FB1D7176920021724B /* 轨迹动画Tests */,
+				181591061D7176920021724B /* 轨迹动画UITests */,
+				181590E01D7176920021724B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		181590E01D7176920021724B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				181590DF1D7176920021724B /* 轨迹动画.app */,
+				181590F81D7176920021724B /* 轨迹动画Tests.xctest */,
+				181591031D7176920021724B /* 轨迹动画UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		181590E11D7176920021724B /* 轨迹动画 */ = {
+			isa = PBXGroup;
+			children = (
+				181590E51D7176920021724B /* AppDelegate.h */,
+				181590E61D7176920021724B /* AppDelegate.m */,
+				181590E81D7176920021724B /* ViewController.h */,
+				181590E91D7176920021724B /* ViewController.m */,
+				181590EB1D7176920021724B /* Main.storyboard */,
+				181590EE1D7176920021724B /* Assets.xcassets */,
+				181590F01D7176920021724B /* LaunchScreen.storyboard */,
+				181590F31D7176920021724B /* Info.plist */,
+				181590E21D7176920021724B /* Supporting Files */,
+			);
+			path = "轨迹动画";
+			sourceTree = "<group>";
+		};
+		181590E21D7176920021724B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				181590E31D7176920021724B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		181590FB1D7176920021724B /* 轨迹动画Tests */ = {
+			isa = PBXGroup;
+			children = (
+				181590FC1D7176920021724B /* ____Tests.m */,
+				181590FE1D7176920021724B /* Info.plist */,
+			);
+			path = "轨迹动画Tests";
+			sourceTree = "<group>";
+		};
+		181591061D7176920021724B /* 轨迹动画UITests */ = {
+			isa = PBXGroup;
+			children = (
+				181591071D7176920021724B /* ____UITests.m */,
+				181591091D7176920021724B /* Info.plist */,
+			);
+			path = "轨迹动画UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		181590DE1D7176920021724B /* 轨迹动画 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1815910C1D7176920021724B /* Build configuration list for PBXNativeTarget "轨迹动画" */;
+			buildPhases = (
+				181590DB1D7176920021724B /* Sources */,
+				181590DC1D7176920021724B /* Frameworks */,
+				181590DD1D7176920021724B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "轨迹动画";
+			productName = "轨迹动画";
+			productReference = 181590DF1D7176920021724B /* 轨迹动画.app */;
+			productType = "com.apple.product-type.application";
+		};
+		181590F71D7176920021724B /* 轨迹动画Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1815910F1D7176920021724B /* Build configuration list for PBXNativeTarget "轨迹动画Tests" */;
+			buildPhases = (
+				181590F41D7176920021724B /* Sources */,
+				181590F51D7176920021724B /* Frameworks */,
+				181590F61D7176920021724B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				181590FA1D7176920021724B /* PBXTargetDependency */,
+			);
+			name = "轨迹动画Tests";
+			productName = "轨迹动画Tests";
+			productReference = 181590F81D7176920021724B /* 轨迹动画Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		181591021D7176920021724B /* 轨迹动画UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 181591121D7176920021724B /* Build configuration list for PBXNativeTarget "轨迹动画UITests" */;
+			buildPhases = (
+				181590FF1D7176920021724B /* Sources */,
+				181591001D7176920021724B /* Frameworks */,
+				181591011D7176920021724B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				181591051D7176920021724B /* PBXTargetDependency */,
+			);
+			name = "轨迹动画UITests";
+			productName = "轨迹动画UITests";
+			productReference = 181591031D7176920021724B /* 轨迹动画UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		181590D71D7176920021724B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Lingser;
+				TargetAttributes = {
+					181590DE1D7176920021724B = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					181590F71D7176920021724B = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 181590DE1D7176920021724B;
+					};
+					181591021D7176920021724B = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 181590DE1D7176920021724B;
+					};
+				};
+			};
+			buildConfigurationList = 181590DA1D7176920021724B /* Build configuration list for PBXProject "轨迹动画" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 181590D61D7176920021724B;
+			productRefGroup = 181590E01D7176920021724B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				181590DE1D7176920021724B /* 轨迹动画 */,
+				181590F71D7176920021724B /* 轨迹动画Tests */,
+				181591021D7176920021724B /* 轨迹动画UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		181590DD1D7176920021724B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181590F21D7176920021724B /* LaunchScreen.storyboard in Resources */,
+				181590EF1D7176920021724B /* Assets.xcassets in Resources */,
+				181590ED1D7176920021724B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181590F61D7176920021724B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181591011D7176920021724B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		181590DB1D7176920021724B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181590EA1D7176920021724B /* ViewController.m in Sources */,
+				181590E71D7176920021724B /* AppDelegate.m in Sources */,
+				181590E41D7176920021724B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181590F41D7176920021724B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181590FD1D7176920021724B /* ____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181590FF1D7176920021724B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181591081D7176920021724B /* ____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		181590FA1D7176920021724B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 181590DE1D7176920021724B /* 轨迹动画 */;
+			targetProxy = 181590F91D7176920021724B /* PBXContainerItemProxy */;
+		};
+		181591051D7176920021724B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 181590DE1D7176920021724B /* 轨迹动画 */;
+			targetProxy = 181591041D7176920021724B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		181590EB1D7176920021724B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				181590EC1D7176920021724B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		181590F01D7176920021724B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				181590F11D7176920021724B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1815910A1D7176920021724B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1815910B1D7176920021724B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1815910D1D7176920021724B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "轨迹动画/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Lingser.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1815910E1D7176920021724B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "轨迹动画/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Lingser.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		181591101D7176920021724B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "轨迹动画Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Lingser.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/轨迹动画.app/轨迹动画";
+			};
+			name = Debug;
+		};
+		181591111D7176920021724B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "轨迹动画Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Lingser.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/轨迹动画.app/轨迹动画";
+			};
+			name = Release;
+		};
+		181591131D7176920021724B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "轨迹动画UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Lingser.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "轨迹动画";
+			};
+			name = Debug;
+		};
+		181591141D7176920021724B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "轨迹动画UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Lingser.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "轨迹动画";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		181590DA1D7176920021724B /* Build configuration list for PBXProject "轨迹动画" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1815910A1D7176920021724B /* Debug */,
+				1815910B1D7176920021724B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1815910C1D7176920021724B /* Build configuration list for PBXNativeTarget "轨迹动画" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1815910D1D7176920021724B /* Debug */,
+				1815910E1D7176920021724B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1815910F1D7176920021724B /* Build configuration list for PBXNativeTarget "轨迹动画Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				181591101D7176920021724B /* Debug */,
+				181591111D7176920021724B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		181591121D7176920021724B /* Build configuration list for PBXNativeTarget "轨迹动画UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				181591131D7176920021724B /* Debug */,
+				181591141D7176920021724B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 181590D71D7176920021724B /* Project object */;
+}

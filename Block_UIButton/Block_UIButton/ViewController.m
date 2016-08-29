@@ -26,7 +26,7 @@
         _button.frame = CGRectMake(100,200,100, 100);
         _button.backgroundColor = [UIColor redColor];
         [_button hand:^{
-            NSLog(@"点击了----");
+            NSLog(@"点击了----");//按钮点击事件
         }];
     }
     return _button;
@@ -39,9 +39,5 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 @end

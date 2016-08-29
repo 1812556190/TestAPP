@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="my9-PW-uuI">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="飞机.png" translatesAutoresizingMaskIntoConstraints="NO" id="LAf-rn-1fh">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="60" id="jeI-G6-Ep7"/>
+                                            <constraint firstAttribute="height" constant="50" id="oZr-Jp-vj5"/>
+                                        </constraints>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="jeI-G6-Ep7"/>
+                                                <exclude reference="oZr-Jp-vj5"/>
+                                            </mask>
+                                        </variation>
+                                        <variation key="heightClass=compact">
+                                            <mask key="constraints">
+                                                <include reference="jeI-G6-Ep7"/>
+                                                <include reference="oZr-Jp-vj5"/>
+                                            </mask>
+                                        </variation>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="LAf-rn-1fh" secondAttribute="bottom" id="P5N-JD-sfv"/>
+                                    <constraint firstItem="LAf-rn-1fh" firstAttribute="leading" secondItem="my9-PW-uuI" secondAttribute="leading" id="uNU-BD-bzk"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="subviews">
+                                        <exclude reference="LAf-rn-1fh"/>
+                                    </mask>
+                                    <mask key="constraints">
+                                        <exclude reference="P5N-JD-sfv"/>
+                                        <exclude reference="uNU-BD-bzk"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=compact">
+                                    <mask key="subviews">
+                                        <include reference="LAf-rn-1fh"/>
+                                    </mask>
+                                    <mask key="constraints">
+                                        <include reference="P5N-JD-sfv"/>
+                                        <include reference="uNU-BD-bzk"/>
+                                    </mask>
+                                </variation>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="my9-PW-uuI" secondAttribute="trailing" id="3bo-W5-Q7I"/>
+                            <constraint firstAttribute="bottom" secondItem="my9-PW-uuI" secondAttribute="bottom" id="Fpe-8t-bVS"/>
+                            <constraint firstItem="my9-PW-uuI" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="fr0-9a-ugm"/>
+                            <constraint firstItem="my9-PW-uuI" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="gvA-KO-5Wu"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="my9-PW-uuI"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="3bo-W5-Q7I"/>
+                                <exclude reference="Fpe-8t-bVS"/>
+                                <exclude reference="fr0-9a-ugm"/>
+                                <exclude reference="gvA-KO-5Wu"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact">
+                            <mask key="subviews">
+                                <include reference="my9-PW-uuI"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="3bo-W5-Q7I"/>
+                                <include reference="Fpe-8t-bVS"/>
+                                <include reference="fr0-9a-ugm"/>
+                                <include reference="gvA-KO-5Wu"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="bgView" destination="my9-PW-uuI" id="6VU-6A-HlP"/>
+                        <outlet property="fleImage" destination="LAf-rn-1fh" id="WhT-Xv-qle"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="飞机.png" width="404" height="390"/>
+    </resources>
+</document>
